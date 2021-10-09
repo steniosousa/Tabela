@@ -1,0 +1,31 @@
+body{
+    background-color: rgba(0, 0, 0, 0.103);
+}
+table{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    padding: 5px;
+    border-collapse: collapse;
+    text-transform: uppercase;
+    caption-side: bottom;
+    text-align:center;
+}
+
+caption{
+    padding-top: 5px;;
+    font-size: 0.8em;
+}
+td{
+    border: 1px solid black;
+    padding: 10px;
+}
+td:hover{
+    background-color: rgba(0, 0, 0, 0.192);
+    cursor: pointer;
+}
+th{
+    background-color: rgba(0, 0, 0, 0.199);
+}
