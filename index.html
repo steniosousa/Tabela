@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="index.js"></script>
     <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
 </head>
 <body>
@@ -17,7 +21,8 @@
         </thead>
         <tbody>
             <tr>
-                <td>Stenio</td> <td>2225968</td>
+                <td  id="input" id="inputTest">Stenio</td> <td>2225968</td>
+                <input  onclick="copiarTexto()"type="button">
             </tr>
             <tr>
                 <td>Vinicius</td> <td>968745</td>
@@ -32,8 +37,8 @@
                 <td>Davi</td> <td>021485</td>
             </tr>
         </tbody>
-      
     </table>
-    
+    <input id="inputTest"/>
+    <button >Copiar</button>
 </body>
 </html>
